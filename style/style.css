@@ -16,6 +16,9 @@ hr{
     border: 1px solid #D1D1D1;
 }
 /* top players style  */
+.top-players{
+    margin-bottom: 30px;
+}
 .section-title{
     color: #562FFF;
     font-size: 24px;
@@ -37,4 +40,32 @@ hr{
 .player-name{
     margin-left: 16px;
     font-size: 18px;
+}
+/* top blog styles */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gape: 26px;
+}
+.blog{
+    display: flex;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 177px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    color: #562EFF;
+    text-decoration: none;
+    font-size: 16px;
 }
